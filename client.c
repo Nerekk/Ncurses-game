@@ -124,29 +124,6 @@ void* player_keyboard(void* arg)
 
 int main()
 {
-/*    int ch;
-    initscr();
-    noecho();
-    cbreak();
-    keypad(stdscr, TRUE);
-    curs_set(FALSE);
-    mvprintw(0, 0, "Choose player type (Human - H | Computer - C)");
-    while (1)
-    {
-        ch = getch();
-        if (ch=='c' || ch=='C')
-        {
-            cpu=1;
-            break;
-        }
-        if (ch=='h' || ch=='H')
-        {
-            cpu=0;
-            break;
-        }
-    }
-    endwin();*/
-
     socket_client_start();
 
     int check;
